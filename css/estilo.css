@@ -125,18 +125,18 @@ footer p{
 .area p{
     padding-bottom: 10px;
 }
-@media (max-width: 600px){
+@media (max-width: 425px){
     .topo{
-        width: 600px;
+        width: 425px;
         display: flex;
         flex-direction: column;
     }
     .links-topo{
-        width: 600px;
+        width: 425px;
         border-top: 1px solid #0000008c;
         text-align: center;
     }
     .links-topo a{
-        font-size: 12px;
+        font-size: 18px;
     }
 }
