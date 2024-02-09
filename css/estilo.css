@@ -140,7 +140,7 @@ footer p{
         flex-direction: column;
     }
     .links-topo{
-        width: 425px;
+        width: 75%;
         border-top: 1px solid #0000008c;
         display: flex;
         justify-content: space-evenly;
@@ -160,7 +160,7 @@ footer p{
         max-width: 425px;
     }
     .area{
-        max-width: 90%;
+        max-width: 75%;
         padding: 10px 0%;
         text-align: center;        
     }
@@ -183,18 +183,18 @@ footer p{
         border-radius: 5px 5px 0 0; 
     }
     figure{    
-        width: 90%;    
+        width: 75%;    
         box-shadow: 0px 0px 3px 1px ;
         font-size: 20px;
         border-radius: 5px;
     }
     .mapa{
-        max-width: 90%;
+        max-width: 75%;
     }
     footer{
         width: 425px;
     }
     .area-footer{
-        width: 90%;
+        width: 75%;
     }
 }
