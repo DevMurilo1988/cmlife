@@ -198,4 +198,7 @@ footer p{
     .area-footer{
         width: 75%;
     }
+    .alinhamento-direita h3{
+        font-size: 14px;
+    }
 }
