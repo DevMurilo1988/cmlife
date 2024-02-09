@@ -194,6 +194,8 @@ footer p{
     }
     footer{
         width: 425px;
+        display: flex;
+        flex-direction: column;
     }
     .area-footer{
         width: 75%;
