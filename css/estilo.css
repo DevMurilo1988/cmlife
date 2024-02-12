@@ -55,6 +55,7 @@ h3{
     height: 100%;
     display: flex;
     align-items: center;
+    
 }
 .area-foto h1{
     color: #fff;
@@ -74,7 +75,7 @@ h3{
 .alinhamento-direita{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .alinhamento-direita nav ul{
     text-align: left;
@@ -133,10 +134,10 @@ footer p{
     display: flex;
     justify-content: space-evenly; 
 }
-@media (max-width: 600px){
+@media (max-width: 425px){
     
     .topo{
-        width: 600px;
+        width: 425px;
         display: flex;
         flex-direction: column;        
     }
@@ -150,31 +151,30 @@ footer p{
         font-size: 18px;        
     }
     .foto-recepcao{
-        max-width: 600px;
-        height: 200px;
-        padding-left: 30px;       
+        max-width: 425px;
+        height: 200px;      
     }
     .area-foto h1{        
-        font-size: 25px;  
+        font-size: 25px;
     }
     .area-tela{
-        max-width: 600px;
+        max-width: 425px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
     .area{
-        max-width: 60%;
-        padding: 10px 0%;
-        text-align: center;    
+        max-width: 100%;
+        padding: 10px;   
     }
-    .area-foto img{
+    .area-tela .area img{
         display: none; 
     }
     .area-fotos-especialidades{
-        max-width: 600px;
+        width: 100%;
         height: 1150px;
+        padding: 0px;
         display: flex;
         flex-direction:column;    
     }
@@ -192,7 +192,7 @@ footer p{
         max-width: 82%;
     }
     .area-footer{
-        width: 600px;
+        width: 100%;
     }
     .alinhamento-direita h3{
         font-size: 18px;
